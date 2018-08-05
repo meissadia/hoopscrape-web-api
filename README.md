@@ -11,8 +11,8 @@ Please visit the [HoopScrape Web API](http://hoopscrape-api.herokuapp.com) demo 
 For more detailed background information, please visit the [HoopScrape gem](http://github.com/meissadia/hoopscrape) readme.
 
 ## Deployment
-### Heroku
-Please visit [Heroku - Deployment](https://devcenter.heroku.com/articles/git) for details.  
-
+### Heroku  
 `$ heroku create`  
 `$ git push heroku master`  
+  
+Please visit [Heroku - Deployment](https://devcenter.heroku.com/articles/git) for details.  
