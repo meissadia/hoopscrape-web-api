@@ -1,5 +1,6 @@
 
-<img style='width:100%' src='public/logo-hoopscrape.png' />
+<img style='width:100%' src='public/logo-hoopscrape.png' />  
+
 ## Introduction
 This Rails 5 application provides the framework to deploy HoopScrape as a web api.
 
