@@ -14,5 +14,5 @@ For more detailed background information, please visit the [HoopScrape gem](http
 ### Heroku
 Please visit [Heroku - Deployment](https://devcenter.heroku.com/articles/git) for details.  
 
-`heroku create`  
-`git push heroku master`  
+`$ heroku create`  
+`$ git push heroku master`  
