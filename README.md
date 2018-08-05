@@ -1,24 +1,16 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<img style='width:100%' src='public/logo-hoopscrape.png' />
+## Introduction
+This Rails 5 application provides the framework to deploy HoopScrape as a web api.
 
-Things you may want to cover:
+## Demo
+Please visit the [HoopScrape Web API](http://hoopscrape-api.herokuapp.com) demo site for usage examples.
 
-* Ruby version
+## More Info
+For more detailed background information, please visit the [HoopScrape gem](http://github.com/meissadia/hoopscrape) readme.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Deployment
+### Heroku
+Please visit [Heroku - Deployment](https://devcenter.heroku.com/articles/git) for details.
+`heroku create`
+`git push heroku master`
