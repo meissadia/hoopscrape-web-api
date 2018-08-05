@@ -12,6 +12,7 @@ For more detailed background information, please visit the [HoopScrape gem](http
 
 ## Deployment
 ### Heroku
-Please visit [Heroku - Deployment](https://devcenter.heroku.com/articles/git) for details.
+Please visit [Heroku - Deployment](https://devcenter.heroku.com/articles/git) for details.  
+
 `heroku create`
 `git push heroku master`
