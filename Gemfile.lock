@@ -47,7 +47,7 @@ GEM
     ffi (1.9.25)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
-    hoopscrape (1.0.4)
+    hoopscrape (1.0.5)
       json (< 2.0)
       nokogiri (~> 1.6)
     i18n (1.0.1)
@@ -126,7 +126,7 @@ PLATFORMS
 
 DEPENDENCIES
   byebug
-  hoopscrape
+  hoopscrape (~> 1.0)
   listen (~> 3.0.5)
   pg (~> 0.18)
   puma (~> 3.0)

@@ -20,7 +20,11 @@ class V1Controller < ApplicationController
   def boxscore
     render json: @hs.boxscore(@id)
   end
-  
+
+  def index
+    render template: 'public/index.html'
+  end
+
   private
 
   def set_id

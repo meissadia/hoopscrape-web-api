@@ -1,0 +1,121 @@
+body {
+  margin: 0 10px;
+  font-family: SegoeUI;
+  text-align: center;
+  background: linear-gradient(white, #F6ECAC, #A2DDD1, #D4BC5E);
+}
+
+div {
+  padding: 20px 0;
+}
+
+img {
+  width: 100%;
+}
+
+pre {
+  text-align: justify;
+  /* width: 70%; */
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+  text-align: center;
+  padding: 5px;
+  color: #F5D59B;
+}
+
+li span {
+  color: white;
+}
+
+ul {
+  width: 80%;
+  background-color: #575555;
+  color: goldenrod;
+  border-radius: 30px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: goldenrod;
+  background: black;
+  border-radius: 30px;
+}
+
+.usage {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  /* margin-left: 20px; */
+  font-weight: 100;
+}
+
+.endpoint {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 100%;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.usage > h1,
+.usage > h2,
+.usage > p {
+  margin-left: 10px;
+}
+
+.usage h1 {
+  text-align: center;
+  font-weight: 100;
+  font-family: SegoeUI;
+}
+
+.usage h2 {
+  font-weight: 100;
+  text-decoration: none;
+
+}
+
+.warn span {
+  display: block;
+  color: goldenrod;
+  font-size: 25px;
+  margin: 5px auto;
+  text-align: center;
+}
+
+.warn {
+  padding: 5px 10px;
+  background: lightgrey;
+  border-radius: 30px;
+  color: black;
+  text-align: center;
+}
+
+footer {
+  height: 100px;
+  line-height: 100px;
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  font-weight: 100;
+  letter-spacing: 2px;
+  font-family: SegoeUI;
+}
+
+a {
+  color: goldenrod;
+}
+
+.logo {
+  max-height: 100px
+}
+
+@media screen and (min-width: 600px) {
+  .endpoint {
+    width: calc(50% - 60px);
+  }
+}
