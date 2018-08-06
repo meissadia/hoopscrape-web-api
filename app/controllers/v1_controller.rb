@@ -4,7 +4,7 @@ class V1Controller < ApplicationController
 
   def teams
     if @demo
-      render json: JSON.parse(File.read('teams.json'))
+      render json: JSON.parse(File.read('public/demo/teams.json'))
     else
       render json: @hs.teamList
     end
@@ -12,7 +12,7 @@ class V1Controller < ApplicationController
 
   def player
     if @demo
-      render json: JSON.parse(File.read('./player.json'))
+      render json: JSON.parse(File.read('public/demo/player.json'))
     else
       render json: @hs.player(@id)
     end
@@ -20,7 +20,7 @@ class V1Controller < ApplicationController
 
   def schedule
     if @demo
-      render json: JSON.parse(File.read('./schedule.json'))
+      render json: JSON.parse(File.read('public/demo/schedule.json'))
     else
       render json: @hs.schedule(@id)
     end
@@ -28,7 +28,7 @@ class V1Controller < ApplicationController
 
   def roster
     if @demo
-      render json: JSON.parse(File.read('./roster.json'))
+      render json: JSON.parse(File.read('public/demo/roster.json'))
     else
       render json: @hs.roster(@id)
     end
@@ -37,7 +37,7 @@ class V1Controller < ApplicationController
 
   def boxscore
     if @demo
-      render json: JSON.parse(File.read('./boxscore.json'))
+      render json: JSON.parse(File.read('public/demo/boxscore.json'))
     else
       render json: @hs.boxscore(@id)
     end
@@ -57,10 +57,5 @@ class V1Controller < ApplicationController
   def set_env
     @demo = ENV['HS_DEMO']
   end
-
-  def playerDemo
-
-  end
-
 
 end
