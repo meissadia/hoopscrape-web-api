@@ -5,7 +5,7 @@
 This Rails 5 API application provides the framework to easily deploy HoopScrape as a web service.
 
 ## Demo
-Please visit the [HoopScrape Web API](http://hoopscrape-api.herokuapp.com) demo site for usage examples.
+Please visit the [HoopScrape Web API](https://hoopscrape-api.herokuapp.com) demo site for usage examples.
 
 ## Deployment
 ### Heroku  
