@@ -16,4 +16,4 @@ Please visit [Heroku - Deployment](https://devcenter.heroku.com/articles/git) fo
 
 
 ## More Info
-For more detailed background information, please visit the [HoopScrape gem](http://github.com/meissadia/hoopscrape) readme.
+For more detailed background information, please visit the [HoopScrape gem](https://github.com/meissadia/hoopscrape) readme.
